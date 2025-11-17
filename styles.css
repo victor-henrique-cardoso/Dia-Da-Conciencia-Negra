@@ -313,21 +313,9 @@ body {
 }
 
 .personality-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 4rem;
+    color: #228B22;
     margin-bottom: 1rem;
-    width: 140px;
-    height: 140px;
-}
-
-.personality-icon img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
 }
 
 .personality-card h3 {
@@ -478,9 +466,12 @@ body {
 
 .social-links {
     display: flex;
+    flex-direction: column; /* ⬅ faz ficar um embaixo do outro */
     gap: 1rem;
     justify-content: center;
+    align-items: center; /* centraliza */
 }
+
 
 .social-links a {
     width: 40px;
